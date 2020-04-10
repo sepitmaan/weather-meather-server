@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS cities
+(
+    id    INT AUTO_INCREMENT PRIMARY KEY,
+    name  VARCHAR(255) NOT NULL,
+    state VARCHAR(255),
+    email VARCHAR(255) NOT NULL,
+    lat   DECIMAL(11, 7),
+    lng   DECIMAL(11, 7)
+);
